@@ -113,3 +113,45 @@ p {
 .btn:focus {
   border: 1px solid rgb(46, 151, 255);
 }
+
+/* profile image */
+
+.profile__container {
+  /* align-items: center; */
+  border-radius: 100%;
+  font-size: 1.8rem;
+  font-weight: 500;
+  display: inline-block;
+  /* height: 32px; */
+  /* justify-content: center; */
+  padding: 4px;
+  /* text-align: center; */
+  width: fit-content;
+}
+
+.profile {
+  align-items: center;
+  /* border: 1px solid #fff; */
+  border-radius: 100%;
+  font-size: 1.8rem;
+  font-weight: 500;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  padding: 4px;
+  text-align: center;
+  width: 32px;
+}
+
+.profile-primary {
+  background-color: #c2185b;
+  color: #fff;
+}
+
+.profile__container:hover {
+  cursor: pointer;
+}
+
+.profile__container:hover .profile {
+  box-shadow: 0 0 0 4px rgba(62, 73, 82, 0.05);
+}
