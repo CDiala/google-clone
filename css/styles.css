@@ -1,5 +1,5 @@
 :root {
-  --color-link-footer: #868074;
+  --color-link-footer: #737478;
   --color-main: #583d4e;
   --color-profile: #c2175b;
   --color-back-footer: #f2f2f2;
@@ -75,4 +75,16 @@ p {
 
 .list__header {
   color: var(--color-body-main);
+}
+
+.list__big {
+  font-size: 1.5rem;
+}
+
+.list__mid {
+  font-size: 1.4rem;
+}
+
+.list__small {
+  font-size: 1.3rem;
 }
