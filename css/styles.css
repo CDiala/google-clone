@@ -1,0 +1,78 @@
+:root {
+  --color-link-footer: #868074;
+  --color-main: #583d4e;
+  --color-profile: #c2175b;
+  --color-back-footer: #f2f2f2;
+  --color-body-main: #282725;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+/* list items */
+
+.list-items {
+  display: flex;
+}
+
+.list-items li {
+  list-style: none;
+  margin: 1rem;
+  /* display: flex; */
+}
+
+.list-items a {
+  text-decoration: none;
+}
+
+.list-items a:hover {
+  text-decoration: underline;
+}
+
+.list__footer {
+  color: var(--color-link-footer);
+}
+
+.list__header {
+  color: var(--color-body-main);
+}
