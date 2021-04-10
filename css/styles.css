@@ -133,6 +133,7 @@ p {
   align-items: center;
   /* border: 1px solid #fff; */
   border-radius: 100%;
+  font-family: "Roboto", RobotoDraft, Arial, sans-serif;
   font-size: 1.8rem;
   font-weight: 500;
   display: flex;
@@ -154,4 +155,62 @@ p {
 
 .profile__container:hover .profile {
   box-shadow: 0 0 0 4px rgba(62, 73, 82, 0.05);
+}
+
+/*search component*/
+.search-icon {
+  fill: #00000094;
+  width: 15px;
+}
+
+.input-group {
+  width: 80%;
+  margin: auto;
+  border-radius: 25px;
+  box-shadow: 0 0 4px 1px #80808075;
+  display: flex;
+  overflow: hidden;
+  height: 44px;
+  align-items: center;
+  /* background-color: grey; */
+}
+
+.icon-container,
+.mic-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-container {
+  /* background-color: red; */
+  margin-left: 7px;
+}
+
+.mic-container {
+  cursor: pointer;
+  position: relative;
+  left: -15px;
+  width: 30px;
+}
+
+.search {
+  border: 0;
+  flex-grow: 1;
+  font-family: Arial;
+  font-size: 1.6rem;
+  outline: 0;
+  margin: 0 1.6rem 0 0;
+  padding: 0 0 0 4px;
+}
+
+.search::placeholder {
+  color: #494949;
+  /* font-weight: 500; */
+}
+
+.google-mic {
+  width: 13px;
 }
