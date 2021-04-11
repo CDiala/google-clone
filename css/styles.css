@@ -114,6 +114,19 @@ p {
   border: 1px solid rgb(46, 151, 255);
 }
 
+/* google app icon */
+.google-app-container {
+  align-items: center;
+  /* border-radius: 100%; */
+  /* background-color: red; */
+  margin: 0 2rem;
+  display: flex;
+}
+
+.google-app-logo {
+  width: 18px;
+}
+
 /* profile image */
 
 .profile__container {
@@ -159,18 +172,19 @@ p {
 
 /*search component*/
 .search-icon {
-  fill: #00000094;
+  display: flex;
+  fill: #908d8dbf;
   width: 15px;
 }
 
 .input-group {
-  width: 80%;
+  /* width: 80%; */
   margin: auto;
   border-radius: 25px;
   box-shadow: 0 0 4px 1px #80808075;
   display: flex;
   overflow: hidden;
-  height: 44px;
+  /* height: 44px; */
   align-items: center;
   /* background-color: grey; */
 }
@@ -178,7 +192,7 @@ p {
 .icon-container,
 .mic-container {
   width: 40px;
-  height: 40px;
+  /* height: 40px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -212,5 +226,23 @@ p {
 }
 
 .google-mic {
+  display: flex;
   width: 13px;
+}
+
+/* nav */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.1rem 1.2rem;
+}
+
+nav * {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .google-mic {
+    display: none;
+  }
 }
