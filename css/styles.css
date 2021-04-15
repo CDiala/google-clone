@@ -229,7 +229,7 @@ main {
   flex-grow: 1;
   /* height: 76vh; */
   margin: 0 auto;
-  padding: 0 0 0.5rem;
+  /* padding: 0 0 0.5rem; */
   text-align: center;
   width: 100%;
 }
@@ -258,7 +258,7 @@ main .input-group {
   flex-wrap: nowrap;
   font-size: small;
   justify-content: center;
-  margin-top: 2rem;
+  margin: 2rem auto;
 }
 
 .google-offers ul,
