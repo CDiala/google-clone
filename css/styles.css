@@ -365,22 +365,22 @@ footer {
 
 @media screen and (max-width: 768px) {
   main {
-    height: 59vh;
+    /* height: 59vh; */
   }
 
   footer {
-    height: 31vh;
+    /* height: 31vh; */
   }
 
   .footer-top {
     align-items: center;
     display: flex;
-    height: 24%;
+    /* height: 24%; */
   }
 
   .footer-bottom {
     grid-template: repeat(3, 1fr) / repeat(1, 1fr);
-    height: 76%;
+    /* height: 76%; */
   }
 
   .footer-left {
@@ -409,15 +409,15 @@ footer {
   }
 
   header {
-    height: auto;
+    /* height: auto; */
   }
 
   main {
-    height: auto;
+    /* height: auto; */
   }
 
   footer {
-    height: auto;
+    /* height: auto; */
     margin-top: 8rem;
   }
 }
