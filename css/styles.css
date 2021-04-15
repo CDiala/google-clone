@@ -380,6 +380,7 @@ footer {
 
   .footer-bottom {
     grid-template: repeat(3, 1fr) / repeat(1, 1fr);
+    row-gap: 25px;
     /* height: 76%; */
   }
 
@@ -400,12 +401,30 @@ footer {
 @media screen and (max-width: 500px) {
   .footer-bottom .footer-left .list-items > li,
   .footer-bottom .footer-right .list-items > li {
-    margin-right: 0.6rem;
+    margin-right: 2rem;
   }
 
   body {
     display: flex;
     flex-direction: column;
+  }
+
+  .search-buttons {
+    display: none;
+  }
+
+  .google-offers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .input-group {
+    margin-top: 4.5rem;
+    width: 95%;
+  }
+
+  .google-image {
+    width: 40%;
   }
 
   header {
@@ -418,6 +437,6 @@ footer {
 
   footer {
     /* height: auto; */
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
   }
 }
