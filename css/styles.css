@@ -329,23 +329,10 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
-  main {
-    /* height: 67vh; */
-  }
-
-  footer {
-    /* height: 23vh; */
-  }
-
-  .footer-top {
-    /* height: 32%; */
-  }
-
   .footer-bottom {
     display: grid;
     grid-template-columns: 5fr 3fr;
     grid-template-rows: repeat(2, 1fr);
-    /* height: 68%; */
     justify-items: center;
   }
 
@@ -364,24 +351,14 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  main {
-    /* height: 59vh; */
-  }
-
-  footer {
-    /* height: 31vh; */
-  }
-
   .footer-top {
     align-items: center;
     display: flex;
-    /* height: 24%; */
   }
 
   .footer-bottom {
     grid-template: repeat(3, 1fr) / repeat(1, 1fr);
     row-gap: 25px;
-    /* height: 76%; */
   }
 
   .footer-left {
@@ -416,10 +393,15 @@ footer {
   .google-offers {
     display: flex;
     flex-direction: column;
+    row-gap: 10px;
+  }
+
+  main {
+    margin-top: 4.5rem;
   }
 
   main .input-group {
-    margin-top: 4.5rem;
+    margin-top: 2.5rem;
     width: 95%;
   }
 
@@ -427,16 +409,7 @@ footer {
     width: 40%;
   }
 
-  header {
-    /* height: auto; */
-  }
-
-  main {
-    /* height: auto; */
-  }
-
-  footer {
-    /* height: auto; */
-    /* margin-top: 8rem; */
+  .google-offers ul > li {
+    margin: 0 1rem;
   }
 }
