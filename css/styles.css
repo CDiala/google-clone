@@ -143,6 +143,10 @@ a:hover {
   box-shadow: 0 0 0 4px rgba(62, 73, 82, 0.05);
 }
 
+.google-image {
+  margin-top: 20rem;
+}
+
 /*search component*/
 .search-icon {
   display: flex;
@@ -509,6 +513,7 @@ footer {
   }
 
   .google-image {
+    margin-top: 5rem;
     width: 40%;
   }
 
